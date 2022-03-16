@@ -1,0 +1,36 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "打牌计分器"
+			}
+		},
+		{
+			"path": "pages/getAuth/getAuth",
+			"style": {
+				"navigationBarTitleText": "用户授权"
+			}
+		},
+		{
+			"path": "pages/room/room",
+			"style": {
+				"navigationBarTitleText": "房间"
+			}
+		},
+		{
+			"path": "pages/annotation/annotation",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "打牌计分器",
+		"navigationBarBackgroundColor": "#ff5d50"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
